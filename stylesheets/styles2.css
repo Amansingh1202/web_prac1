@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    height: 100vh;
+}
+.service{
+    margin: 90px auto;
+    text-align: center;
+}
+h1{
+    font-family: Century Gothic,sans-serif;
+    letter-spacing: 1px;
+}
+h1:after
+{
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+    
+}

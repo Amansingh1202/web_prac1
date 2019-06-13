@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    height: 100vh;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size:30px; 
+}
+img{
+    height: 50px;
+    width: 250px;
+    margin-left: 65px;
+    height: 250px;
+    border: 2px solid blue;
+    
+}
+a img:hover{
+    border: 3px solid aliceblue;
+}
